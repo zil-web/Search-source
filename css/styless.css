@@ -1,0 +1,50 @@
+body {
+    font-family: 'Sofia', 'Arial', sans-serif; /* Updated font-family */
+    background-image: url('https://cdn0-production-images-kly.akamaized.net/e_TxcubjisHrQFDedDN-K6GhwNc=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4447695/original/021457600_1685494728-HL_yoremahm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+.navbar {
+    background-color: white;
+    border-top: 2px solid white;
+}
+.navbar-nav .nav-item {
+    background-color: pink;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.navbar-nav .nav-item .nav-link {
+    color: black !important;
+    padding: 10px 15px;
+}
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+.carousel-item img {
+    border: 5px solid white;
+    border-radius: 10px;
+    max-height: 400px;
+    object-fit: cover;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn-contact {
+    font-size: 24px;
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.btn-contact i {
+    margin-left: 5px;
+}
